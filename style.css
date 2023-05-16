@@ -1057,7 +1057,7 @@ HEADER
   display: none; }
 
 #header {
-  background-image: url("../../../../file.hstatic.net/200000411281/file/nen_1_d9b188f289834a59b6db9ded098262c8.jpg");
+  background-image: url("file.hstatic.net/200000411281/file/nen_1_d9b188f289834a59b6db9ded098262c8.jpg");
   background-size: cover;
   background-position: center center;
   color: #ffffff;
@@ -3351,13 +3351,13 @@ span.action_link {
   border-color: #ebebeb; }
 
 .icon-user:after {
-  content: url(../../../../hstatic.net/0/0/global/design/theme-default/userico.png); }
+  content: url(hstatic.net/0/0/global/design/theme-default/userico.png); }
 
 .icon-envelope:after {
-  content: url(../../../../hstatic.net/0/0/global/design/theme-default/email.png); }
+  content: url(hstatic.net/0/0/global/design/theme-default/email.png); }
 
 .icon-shield:after {
-  content: url(../../../../hstatic.net/0/0/global/design/theme-default/pass.png); }
+  content: url(hstatic.net/0/0/global/design/theme-default/pass.png); }
 
 .layout-info-account .action_bottom .btn {
   height: 35px;
@@ -3407,7 +3407,7 @@ FOOTER
   padding: 40px 0 10px;
   border-bottom: 1px solid #e7e7e7;
   border-top: 1px solid #e7e7e7;
-  background-image: url("../../../../file.hstatic.net/200000411281/file/nen_1_d9b188f289834a59b6db9ded098262c8.jpg");
+  background-image: url("file.hstatic.net/200000411281/file/nen_1_d9b188f289834a59b6db9ded098262c8.jpg");
   background-size: cover;
   background-position: center center;
   color: #ffffff; }
@@ -4071,7 +4071,7 @@ form.searchform input:focus {
   height: 35px;
   right: 10px;
   top: 6px;
-  background-image: url("../../../../file.hstatic.net/1000308580/file/icon-gifbox_21127e78739a40a28f058e5e123d41b1.png");
+  background-image: url("file.hstatic.net/1000308580/file/icon-gifbox_21127e78739a40a28f058e5e123d41b1.png");
   background-repeat: no-repeat;
   background-size: contain; }
 
@@ -4619,7 +4619,7 @@ RESPONSIVE
   padding: 50px 0; }
 
 .home-featured-product {
-  background-image: url("../../../../file.hstatic.net/200000411281/file/nen_1_d9b188f289834a59b6db9ded098262c8.jpg");
+  background-image: url("file.hstatic.net/200000411281/file/nen_1_d9b188f289834a59b6db9ded098262c8.jpg");
   background-size: cover;
   background-position: center center;
   margin-top: 0;
