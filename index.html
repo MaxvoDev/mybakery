@@ -163,91 +163,6 @@
                   <a class="btn btn-primary rounded-0" href="account/login.html">Đăng nhập</a>
                   <a class="btn btn-outline-light rounded-0" href="account/register.html">Đăng ký</a>
                 </div>
-                <div class="header-search ml-5">
-                  <a href="javascript:void(0);" onclick="initSearch('open')">
-                    <i class="fal fa-search fz-20"></i>
-                  </a>
-                </div>
-                <div class="header-action_cart position-relative ml-5">
-                  <div class="header-action_text cursor-pointer" id="dropdownCartButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <div class="header-action__link header-action-toggle" aria-label="Giỏ hàng" title="Giỏ hàng">
-                      <span class="box-icon">
-                        <i class="fal fa-shopping-cart fz-20"></i>
-                        <span class="count-holder">
-                          <span class="count">0</span>
-                        </span>
-                      </span>
-                    </div>
-                  </div>
-                  <div class="header-action_dropdown dropdown-menu dropdown-menu-right" aria-labelledby="dropdownCartButton">
-                    <span class="box-triangle">
-                      <svg viewBox="0 0 20 9">
-                        <path d="M.47108938 9c.2694725-.26871321.57077721-.56867841.90388257-.89986354C3.12384116 6.36134886 5.74788116 3.76338565 9.2467995.30653888c.4145057-.4095171 1.0844277-.40860098 1.4977971.00205122L19.4935156 9H.47108938z" fill="#ffffff"></path>
-                      </svg>
-                    </span>
-                    <div class="header-dropdown_content">
-                      <div class="site-cart">
-                        <div class="cart-view clearfix">
-                          <div class="cart-view-scroll">
-                            <table id="clone-item-cart" class="table-clone-cart">
-                              <tr class="item_2 hidden">
-                                <td class="img">
-                                  <a href="#" title="">
-                                    <img src="theme.hstatic.net/200000411281/1000949882/14/1x1f659.jpg?v=210" alt="" />
-                                  </a>
-                                </td>
-                                <td>
-                                  <p class="pro-title">
-                                    <a class="pro-title-view" href="#" title=""></a>
-                                    <span class="variant"></span>
-                                  </p>
-                                  <div class="mini-cart_quantity">
-                                    <div class="pro-quantity-view">
-                                      <span class="qty-value"></span>
-                                    </div>
-                                    <div class="pro-price-view"></div>
-                                  </div>
-                                  <div class="remove_link remove-cart"></div>
-                                </td>
-                              </tr>
-                            </table>
-                            <table id="cart-view">
-                              <tr class="item-cart_empty">
-                                <td>
-                                  <div class="svgico-mini-cart">
-                                    <svg width="81" height="70" viewBox="0 0 81 70">
-                                      <g transform="translate(0 2)" stroke-width="4" stroke="#1e2d7d" fill="none" fill-rule="evenodd">
-                                        <circle stroke-linecap="square" cx="34" cy="60" r="6"></circle>
-                                        <circle stroke-linecap="square" cx="67" cy="60" r="6"></circle>
-                                        <path d="M22.9360352 15h54.8070373l-4.3391876 30H30.3387146L19.6676025 0H.99560547"></path>
-                                      </g>
-                                    </svg>
-                                  </div> Hiện chưa có sản phẩm
-                                </td>
-                              </tr>
-                            </table>
-                          </div>
-                          <div class="line"></div>
-                          <div class="cart-view-total">
-                            <table class="table-total">
-                              <tr>
-                                <td class="text-left">TỔNG TIỀN:</td>
-                                <td class="text-right" id="total-view-cart">0₫</td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <a href="cart.html" class="linktocart btn btn-primary btn-sm text-uppercase">Xem giỏ hàng</a>
-                                </td>
-                                <td>
-                                  <a href="cart.html" class="linktocheckout btn btn-primary btn-sm text-uppercase hide">Thanh toán</a>
-                                </td>
-                              </tr>
-                            </table>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
                 <div class=" ml-5">
                   <a class="close-nav" href="javascript:void(0);" onclick="initNav('open')">
@@ -270,35 +185,7 @@
           </div>
         </div>
       </div>
-      <div class="header-search">
-        <div class="main-search d-flex align-items-center justify-content-center">
-          <a class="close-search" href="javascript:void(0);" onclick="initSearch('close')">
-            <img src="theme.hstatic.net/200000411281/1000949882/14/icon-closef659.png?v=210" alt="close" />
-          </a>
-          <div class="search-box wpo-wrapper-search">
-            <form action="https://www.freshgarden.vn/search" class="searchform-product ultimate-search">
-              <div class="wpo-search-inner">
-                <input type="hidden" name="type" value="product" />
-                <input required id="inputSearchAuto-3" class="input-search" name="q" maxlength="40" autocomplete="off" type="text" size="20" placeholder="Tìm kiếm sản phẩm..." aria-label="input search">
-                <span class="close-search">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
-                  </svg>
-                </span>
-              </div>
-              <button type="submit" class="btn-search " id="btnSearchAuto-3" aria-label="Tìm kiếm">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="20" height="20">
-                  <path d="M37.613,36.293l-9.408-9.432a15.005,15.005,0,1,0-1.41,1.414L36.2,37.707A1,1,0,1,0,37.613,36.293ZM3.992,17A12.967,12.967,0,1,1,16.959,30,13,13,0,0,1,3.992,17Z"></path>
-                </svg>
-              </button>
-            </form>
-            <div class="smart-search-wrapper ajaxSearchResults" id="ajaxSearchResults-3" style="display: none">
-              <div class="resultsContent"></div>
-            </div>
-            <div class="searchform-backdrop"></div>
-          </div>
-        </div>
-      </div>
+
       <main class="mainContent-theme  main-index ">
         <h1 class="hidden entry-title">Freshgarden.vn</h1>
         <div id="home-slider">
@@ -370,12 +257,9 @@
                         </picture>
                       </a>
                       <div class="button-add d-none d-md-flex">
-                        <button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1098708854');">
+                        <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh kem Kiss me more', '$9.99', 'product.hstatic.net/200000411281/product/3-removebg-preview__1__a19553318e10407b88af95331dd44316_grande.png')">
                           <i class="fal fa-cart-plus"></i>
                         </button>
-                        <a href="products/banh-kem-kiss-me-more-4.html">
-                          <i class="fal fa-eye"></i>
-                        </a>
                       </div>
                     </div>
                     <div class="product-detail clearfix">
@@ -393,29 +277,27 @@
                   </div>
                 </div>
               </div>
+
               <div class="item">
                 <div class="product-item">
                   <div class="product-block">
                     <div class="product-img ">
-                      <a href="products/banh-kem-love-melody-4.html" title="Bánh Kem Love Melody 4" class="ratiobox">
+                      <a href="products/banh-kem-kiss-me-more-4.html" title="Bánh kem Kiss me more" class="ratiobox">
                         <picture>
-                          <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/1-removebg-preview__1___1__cd1a59ee89344030956d4a191392282c_medium.png" />
-                          <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/1-removebg-preview__1___1__cd1a59ee89344030956d4a191392282c_grande.png" alt=" Bánh Kem Love Melody 4 " />
+                          <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/3-removebg-preview__1__a19553318e10407b88af95331dd44316_medium.png" />
+                          <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/3-removebg-preview__1__a19553318e10407b88af95331dd44316_grande.png" alt=" Bánh kem Kiss me more " />
                         </picture>
                       </a>
                       <div class="button-add d-none d-md-flex">
-                        <button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1098708564');">
+                        <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh kem Kiss me more', '$9.99', 'product.hstatic.net/200000411281/product/3-removebg-preview__1__a19553318e10407b88af95331dd44316_grande.png')">
                           <i class="fal fa-cart-plus"></i>
                         </button>
-                        <a href="products/banh-kem-love-melody-4.html">
-                          <i class="fal fa-eye"></i>
-                        </a>
                       </div>
                     </div>
                     <div class="product-detail clearfix">
                       <div class="box-pro-detail">
                         <h3 class="pro-name">
-                          <a href="products/banh-kem-love-melody-4.html" title="Bánh Kem Love Melody 4"> Bánh Kem Love Melody 4 </a>
+                          <a href="products/banh-kem-kiss-me-more-4.html" title="Bánh kem Kiss me more"> Bánh kem Kiss me more </a>
                         </h3>
                         <div class="box-pro-prices">
                           <p class="pro-price ">
@@ -427,63 +309,27 @@
                   </div>
                 </div>
               </div>
+
               <div class="item">
                 <div class="product-item">
                   <div class="product-block">
                     <div class="product-img ">
-                      <a href="products/banh-mousse-moi.html" title="Bánh Kem Mousse Hawaii" class="ratiobox">
+                      <a href="products/banh-kem-kiss-me-more-4.html" title="Bánh kem Kiss me more" class="ratiobox">
                         <picture>
-                          <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/1_f00d4d4df0d44f3f9ff3835cc2039490_medium.png" />
-                          <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/1_f00d4d4df0d44f3f9ff3835cc2039490_grande.png" alt=" Bánh Kem Mousse Hawaii " />
+                          <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/3-removebg-preview__1__a19553318e10407b88af95331dd44316_medium.png" />
+                          <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/3-removebg-preview__1__a19553318e10407b88af95331dd44316_grande.png" alt=" Bánh kem Kiss me more " />
                         </picture>
                       </a>
                       <div class="button-add d-none d-md-flex">
-                        <button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1090510437');">
+                        <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh kem Kiss me more', '$9.99', 'product.hstatic.net/200000411281/product/3-removebg-preview__1__a19553318e10407b88af95331dd44316_grande.png')">
                           <i class="fal fa-cart-plus"></i>
                         </button>
-                        <a href="products/banh-mousse-moi.html">
-                          <i class="fal fa-eye"></i>
-                        </a>
                       </div>
                     </div>
                     <div class="product-detail clearfix">
                       <div class="box-pro-detail">
                         <h3 class="pro-name">
-                          <a href="products/banh-mousse-moi.html" title="Bánh Kem Mousse Hawaii"> Bánh Kem Mousse Hawaii </a>
-                        </h3>
-                        <div class="box-pro-prices">
-                          <p class="pro-price ">
-                            <span class="current-price">390,000₫</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="product-item">
-                  <div class="product-block">
-                    <div class="product-img ">
-                      <a href="products/banh-kem-sweet-heart-4.html" title="Bánh Kem Sweet Heart 4" class="ratiobox">
-                        <picture>
-                          <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/2-removebg-preview__1__ba51f7d4eaf74031877384148b2a7a9f_medium.png" />
-                          <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/2-removebg-preview__1__ba51f7d4eaf74031877384148b2a7a9f_grande.png" alt=" Bánh Kem Sweet Heart 4 " />
-                        </picture>
-                      </a>
-                      <div class="button-add d-none d-md-flex">
-                        <button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1098708727');">
-                          <i class="fal fa-cart-plus"></i>
-                        </button>
-                        <a href="products/banh-kem-sweet-heart-4.html">
-                          <i class="fal fa-eye"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="product-detail clearfix">
-                      <div class="box-pro-detail">
-                        <h3 class="pro-name">
-                          <a href="products/banh-kem-sweet-heart-4.html" title="Bánh Kem Sweet Heart 4"> Bánh Kem Sweet Heart 4 </a>
+                          <a href="products/banh-kem-kiss-me-more-4.html" title="Bánh kem Kiss me more"> Bánh kem Kiss me more </a>
                         </h3>
                         <div class="box-pro-prices">
                           <p class="pro-price ">
@@ -495,29 +341,27 @@
                   </div>
                 </div>
               </div>
+
               <div class="item">
                 <div class="product-item">
                   <div class="product-block">
                     <div class="product-img ">
-                      <a href="products/banh-kem-fresh-strawberry-4.html" title="Bánh Kem Tasty Love" class="ratiobox">
+                      <a href="products/banh-kem-kiss-me-more-4.html" title="Bánh kem Kiss me more" class="ratiobox">
                         <picture>
-                          <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/7-removebg-preview__1___1__301d13b05c0449838515ab346bac0e7a_medium.png" />
-                          <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/7-removebg-preview__1___1__301d13b05c0449838515ab346bac0e7a_grande.png" alt=" Bánh Kem Tasty Love " />
+                          <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/3-removebg-preview__1__a19553318e10407b88af95331dd44316_medium.png" />
+                          <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/3-removebg-preview__1__a19553318e10407b88af95331dd44316_grande.png" alt=" Bánh kem Kiss me more " />
                         </picture>
                       </a>
                       <div class="button-add d-none d-md-flex">
-                        <button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1098708634');">
+                        <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh kem Kiss me more', '$9.99', 'product.hstatic.net/200000411281/product/3-removebg-preview__1__a19553318e10407b88af95331dd44316_grande.png')">
                           <i class="fal fa-cart-plus"></i>
                         </button>
-                        <a href="products/banh-kem-fresh-strawberry-4.html">
-                          <i class="fal fa-eye"></i>
-                        </a>
                       </div>
                     </div>
                     <div class="product-detail clearfix">
                       <div class="box-pro-detail">
                         <h3 class="pro-name">
-                          <a href="products/banh-kem-fresh-strawberry-4.html" title="Bánh Kem Tasty Love"> Bánh Kem Tasty Love </a>
+                          <a href="products/banh-kem-kiss-me-more-4.html" title="Bánh kem Kiss me more"> Bánh kem Kiss me more </a>
                         </h3>
                         <div class="box-pro-prices">
                           <p class="pro-price ">
@@ -564,12 +408,9 @@
                                 </picture>
                               </a>
                               <div class="button-add d-none d-md-flex">
-                                <button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1078691376');">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
                                   <i class="fal fa-cart-plus"></i>
                                 </button>
-                                <a href="products/banh-mi-nuong-bo-toi.html">
-                                  <i class="fal fa-eye"></i>
-                                </a>
                               </div>
                             </div>
                             <div class="product-detail clearfix">
@@ -579,7 +420,7 @@
                                 </h3>
                                 <div class="box-pro-prices">
                                   <p class="pro-price ">
-                                    <span class="current-price">15,000₫</span>
+                                    <span class="current-price">$9.99</span>
                                   </p>
                                 </div>
                               </div>
@@ -587,33 +428,31 @@
                           </div>
                         </div>
                       </div>
+                      
                       <div class="col-6 col-md-4 col-lg-3">
                         <div class="product-item">
                           <div class="product-block">
                             <div class="product-img ">
-                              <a href="products/banh-mi-nuong-caramen.html" title="Bánh Mì Nướng Caramen" class="ratiobox">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
                                 <picture>
-                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/2_862efa1275f7462c9e2680575e45da5f_medium.jpg" />
-                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/2_862efa1275f7462c9e2680575e45da5f_grande.jpg" alt=" Bánh Mì Nướng Caramen " />
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
                                 </picture>
                               </a>
                               <div class="button-add d-none d-md-flex">
-                                <button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1078691102');">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
                                   <i class="fal fa-cart-plus"></i>
                                 </button>
-                                <a href="products/banh-mi-nuong-caramen.html">
-                                  <i class="fal fa-eye"></i>
-                                </a>
                               </div>
                             </div>
                             <div class="product-detail clearfix">
                               <div class="box-pro-detail">
                                 <h3 class="pro-name">
-                                  <a href="products/banh-mi-nuong-caramen.html" title="Bánh Mì Nướng Caramen"> Bánh Mì Nướng Caramen </a>
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
                                 </h3>
                                 <div class="box-pro-prices">
                                   <p class="pro-price ">
-                                    <span class="current-price">15,000₫</span>
+                                    <span class="current-price">$9.99</span>
                                   </p>
                                 </div>
                               </div>
@@ -621,33 +460,31 @@
                           </div>
                         </div>
                       </div>
+
                       <div class="col-6 col-md-4 col-lg-3">
                         <div class="product-item">
                           <div class="product-block">
                             <div class="product-img ">
-                              <a href="products/banh-mi-nuong-pho-mai-que.html" title="Bánh Mì Nướng Phô Mai Que" class="ratiobox">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
                                 <picture>
-                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/3_fdd1265100174cc3a112fde516b5204c_medium.jpg" />
-                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/3_fdd1265100174cc3a112fde516b5204c_grande.jpg" alt=" Bánh Mì Nướng Phô Mai Que " />
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
                                 </picture>
                               </a>
                               <div class="button-add d-none d-md-flex">
-                                <button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1078691565');">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
                                   <i class="fal fa-cart-plus"></i>
                                 </button>
-                                <a href="products/banh-mi-nuong-pho-mai-que.html">
-                                  <i class="fal fa-eye"></i>
-                                </a>
                               </div>
                             </div>
                             <div class="product-detail clearfix">
                               <div class="box-pro-detail">
                                 <h3 class="pro-name">
-                                  <a href="products/banh-mi-nuong-pho-mai-que.html" title="Bánh Mì Nướng Phô Mai Que"> Bánh Mì Nướng Phô Mai Que </a>
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
                                 </h3>
                                 <div class="box-pro-prices">
                                   <p class="pro-price ">
-                                    <span class="current-price">15,000₫</span>
+                                    <span class="current-price">$9.99</span>
                                   </p>
                                 </div>
                               </div>
@@ -655,33 +492,31 @@
                           </div>
                         </div>
                       </div>
+
                       <div class="col-6 col-md-4 col-lg-3">
                         <div class="product-item">
                           <div class="product-block">
                             <div class="product-img ">
-                              <a href="products/banh-mi-nuong-rong-bien.html" title="Bánh Mì Nướng Rong Biển" class="ratiobox">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
                                 <picture>
-                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/5_09647ff4513940d6ad53e527ab6b2c16_medium.jpg" />
-                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/5_09647ff4513940d6ad53e527ab6b2c16_grande.jpg" alt=" Bánh Mì Nướng Rong Biển " />
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
                                 </picture>
                               </a>
                               <div class="button-add d-none d-md-flex">
-                                <button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1078691805');">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
                                   <i class="fal fa-cart-plus"></i>
                                 </button>
-                                <a href="products/banh-mi-nuong-rong-bien.html">
-                                  <i class="fal fa-eye"></i>
-                                </a>
                               </div>
                             </div>
                             <div class="product-detail clearfix">
                               <div class="box-pro-detail">
                                 <h3 class="pro-name">
-                                  <a href="products/banh-mi-nuong-rong-bien.html" title="Bánh Mì Nướng Rong Biển"> Bánh Mì Nướng Rong Biển </a>
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
                                 </h3>
                                 <div class="box-pro-prices">
                                   <p class="pro-price ">
-                                    <span class="current-price">15,000₫</span>
+                                    <span class="current-price">$9.99</span>
                                   </p>
                                 </div>
                               </div>
@@ -689,33 +524,31 @@
                           </div>
                         </div>
                       </div>
+
                       <div class="col-6 col-md-4 col-lg-3">
                         <div class="product-item">
                           <div class="product-block">
                             <div class="product-img ">
-                              <a href="products/banh-mi-nuong-sot-pizza.html" title="Bánh Mì Nướng Sốt Pizza" class="ratiobox">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
                                 <picture>
-                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/8_1dd4f612ca7840b5bfae8020068bd24f_medium.jpg" />
-                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/8_1dd4f612ca7840b5bfae8020068bd24f_grande.jpg" alt=" Bánh Mì Nướng Sốt Pizza " />
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
                                 </picture>
                               </a>
                               <div class="button-add d-none d-md-flex">
-                                <button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1078691691');">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
                                   <i class="fal fa-cart-plus"></i>
                                 </button>
-                                <a href="products/banh-mi-nuong-sot-pizza.html">
-                                  <i class="fal fa-eye"></i>
-                                </a>
                               </div>
                             </div>
                             <div class="product-detail clearfix">
                               <div class="box-pro-detail">
                                 <h3 class="pro-name">
-                                  <a href="products/banh-mi-nuong-sot-pizza.html" title="Bánh Mì Nướng Sốt Pizza"> Bánh Mì Nướng Sốt Pizza </a>
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
                                 </h3>
                                 <div class="box-pro-prices">
                                   <p class="pro-price ">
-                                    <span class="current-price">15,000₫</span>
+                                    <span class="current-price">$9.99</span>
                                   </p>
                                 </div>
                               </div>
@@ -723,33 +556,32 @@
                           </div>
                         </div>
                       </div>
+
+
                       <div class="col-6 col-md-4 col-lg-3">
                         <div class="product-item">
                           <div class="product-block">
                             <div class="product-img ">
-                              <a href="products/pizza-bo-bulgogi.html" title="Pizza Bò Bulgogi" class="ratiobox">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
                                 <picture>
-                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/25_4c7f7b96dd63433ea7b2154503f02ad1_medium.jpg" />
-                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/25_4c7f7b96dd63433ea7b2154503f02ad1_grande.jpg" alt=" Pizza Bò Bulgogi " />
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
                                 </picture>
                               </a>
                               <div class="button-add d-none d-md-flex">
-                                <button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1078680750');">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
                                   <i class="fal fa-cart-plus"></i>
                                 </button>
-                                <a href="products/pizza-bo-bulgogi.html">
-                                  <i class="fal fa-eye"></i>
-                                </a>
                               </div>
                             </div>
                             <div class="product-detail clearfix">
                               <div class="box-pro-detail">
                                 <h3 class="pro-name">
-                                  <a href="products/pizza-bo-bulgogi.html" title="Pizza Bò Bulgogi"> Pizza Bò Bulgogi </a>
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
                                 </h3>
                                 <div class="box-pro-prices">
                                   <p class="pro-price ">
-                                    <span class="current-price">90,000₫</span>
+                                    <span class="current-price">$9.99</span>
                                   </p>
                                 </div>
                               </div>
@@ -757,33 +589,32 @@
                           </div>
                         </div>
                       </div>
+
+
                       <div class="col-6 col-md-4 col-lg-3">
                         <div class="product-item">
                           <div class="product-block">
                             <div class="product-img ">
-                              <a href="products/pizza-ga-teriyaki.html" title="Pizza Gà Teriyaki" class="ratiobox">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
                                 <picture>
-                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/27_042524a63c304692a3491930750d6107_medium.jpg" />
-                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/27_042524a63c304692a3491930750d6107_grande.jpg" alt=" Pizza Gà Teriyaki " />
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
                                 </picture>
                               </a>
                               <div class="button-add d-none d-md-flex">
-                                <button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1078680743');">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
                                   <i class="fal fa-cart-plus"></i>
                                 </button>
-                                <a href="products/pizza-ga-teriyaki.html">
-                                  <i class="fal fa-eye"></i>
-                                </a>
                               </div>
                             </div>
                             <div class="product-detail clearfix">
                               <div class="box-pro-detail">
                                 <h3 class="pro-name">
-                                  <a href="products/pizza-ga-teriyaki.html" title="Pizza Gà Teriyaki"> Pizza Gà Teriyaki </a>
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
                                 </h3>
                                 <div class="box-pro-prices">
                                   <p class="pro-price ">
-                                    <span class="current-price">80,000₫</span>
+                                    <span class="current-price">$9.99</span>
                                   </p>
                                 </div>
                               </div>
@@ -791,33 +622,32 @@
                           </div>
                         </div>
                       </div>
+
+
                       <div class="col-6 col-md-4 col-lg-3">
                         <div class="product-item">
                           <div class="product-block">
                             <div class="product-img ">
-                              <a href="products/pizza-xuc-xich-tuoi.html" title="Pizza Xúc Xích Tươi" class="ratiobox">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
                                 <picture>
-                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/26_67442757e3044f3a8a17597f448b4964_medium.jpg" />
-                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/26_67442757e3044f3a8a17597f448b4964_grande.jpg" alt=" Pizza Xúc Xích Tươi " />
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
                                 </picture>
                               </a>
                               <div class="button-add d-none d-md-flex">
-                                <button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1078680747');">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
                                   <i class="fal fa-cart-plus"></i>
                                 </button>
-                                <a href="products/pizza-xuc-xich-tuoi.html">
-                                  <i class="fal fa-eye"></i>
-                                </a>
                               </div>
                             </div>
                             <div class="product-detail clearfix">
                               <div class="box-pro-detail">
                                 <h3 class="pro-name">
-                                  <a href="products/pizza-xuc-xich-tuoi.html" title="Pizza Xúc Xích Tươi"> Pizza Xúc Xích Tươi </a>
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
                                 </h3>
                                 <div class="box-pro-prices">
                                   <p class="pro-price ">
-                                    <span class="current-price">90,000₫</span>
+                                    <span class="current-price">$9.99</span>
                                   </p>
                                 </div>
                               </div>
@@ -833,29 +663,26 @@
                         <div class="product-item">
                           <div class="product-block">
                             <div class="product-img ">
-                              <a href="products/banh-kem-beloved.html" title="Bánh Kem Beloved" class="ratiobox">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
                                 <picture>
-                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/8_e791f1fb133f47548b7a85ac6174b503_medium.png" />
-                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/8_e791f1fb133f47548b7a85ac6174b503_grande.png" alt=" Bánh Kem Beloved " />
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
                                 </picture>
                               </a>
                               <div class="button-add d-none d-md-flex">
-                                <button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1078680689');">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
                                   <i class="fal fa-cart-plus"></i>
                                 </button>
-                                <a href="products/banh-kem-beloved.html">
-                                  <i class="fal fa-eye"></i>
-                                </a>
                               </div>
                             </div>
                             <div class="product-detail clearfix">
                               <div class="box-pro-detail">
                                 <h3 class="pro-name">
-                                  <a href="products/banh-kem-beloved.html" title="Bánh Kem Beloved"> Bánh Kem Beloved </a>
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
                                 </h3>
                                 <div class="box-pro-prices">
                                   <p class="pro-price ">
-                                    <span class="current-price">320,000₫</span>
+                                    <span class="current-price">$9.99</span>
                                   </p>
                                 </div>
                               </div>
@@ -863,33 +690,226 @@
                           </div>
                         </div>
                       </div>
+                      
                       <div class="col-6 col-md-4 col-lg-3">
                         <div class="product-item">
                           <div class="product-block">
                             <div class="product-img ">
-                              <a href="products/banh-kem-pink-floral.html" title="Bánh Kem Pink Floral" class="ratiobox">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
                                 <picture>
-                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/1_a660132a629c42feae95dd82ab3c85b5_medium.png" />
-                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/1_a660132a629c42feae95dd82ab3c85b5_grande.png" alt=" Bánh Kem Pink Floral " />
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
                                 </picture>
                               </a>
                               <div class="button-add d-none d-md-flex">
-                                <button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1078680727');">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
                                   <i class="fal fa-cart-plus"></i>
                                 </button>
-                                <a href="products/banh-kem-pink-floral.html">
-                                  <i class="fal fa-eye"></i>
-                                </a>
                               </div>
                             </div>
                             <div class="product-detail clearfix">
                               <div class="box-pro-detail">
                                 <h3 class="pro-name">
-                                  <a href="products/banh-kem-pink-floral.html" title="Bánh Kem Pink Floral"> Bánh Kem Pink Floral </a>
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
                                 </h3>
                                 <div class="box-pro-prices">
                                   <p class="pro-price ">
-                                    <span class="current-price">320,000₫</span>
+                                    <span class="current-price">$9.99</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-6 col-md-4 col-lg-3">
+                        <div class="product-item">
+                          <div class="product-block">
+                            <div class="product-img ">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
+                                <picture>
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
+                                </picture>
+                              </a>
+                              <div class="button-add d-none d-md-flex">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
+                                  <i class="fal fa-cart-plus"></i>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="product-detail clearfix">
+                              <div class="box-pro-detail">
+                                <h3 class="pro-name">
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
+                                </h3>
+                                <div class="box-pro-prices">
+                                  <p class="pro-price ">
+                                    <span class="current-price">$9.99</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-6 col-md-4 col-lg-3">
+                        <div class="product-item">
+                          <div class="product-block">
+                            <div class="product-img ">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
+                                <picture>
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
+                                </picture>
+                              </a>
+                              <div class="button-add d-none d-md-flex">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
+                                  <i class="fal fa-cart-plus"></i>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="product-detail clearfix">
+                              <div class="box-pro-detail">
+                                <h3 class="pro-name">
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
+                                </h3>
+                                <div class="box-pro-prices">
+                                  <p class="pro-price ">
+                                    <span class="current-price">$9.99</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-6 col-md-4 col-lg-3">
+                        <div class="product-item">
+                          <div class="product-block">
+                            <div class="product-img ">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
+                                <picture>
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
+                                </picture>
+                              </a>
+                              <div class="button-add d-none d-md-flex">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
+                                  <i class="fal fa-cart-plus"></i>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="product-detail clearfix">
+                              <div class="box-pro-detail">
+                                <h3 class="pro-name">
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
+                                </h3>
+                                <div class="box-pro-prices">
+                                  <p class="pro-price ">
+                                    <span class="current-price">$9.99</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="col-6 col-md-4 col-lg-3">
+                        <div class="product-item">
+                          <div class="product-block">
+                            <div class="product-img ">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
+                                <picture>
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
+                                </picture>
+                              </a>
+                              <div class="button-add d-none d-md-flex">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
+                                  <i class="fal fa-cart-plus"></i>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="product-detail clearfix">
+                              <div class="box-pro-detail">
+                                <h3 class="pro-name">
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
+                                </h3>
+                                <div class="box-pro-prices">
+                                  <p class="pro-price ">
+                                    <span class="current-price">$9.99</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="col-6 col-md-4 col-lg-3">
+                        <div class="product-item">
+                          <div class="product-block">
+                            <div class="product-img ">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
+                                <picture>
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
+                                </picture>
+                              </a>
+                              <div class="button-add d-none d-md-flex">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
+                                  <i class="fal fa-cart-plus"></i>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="product-detail clearfix">
+                              <div class="box-pro-detail">
+                                <h3 class="pro-name">
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
+                                </h3>
+                                <div class="box-pro-prices">
+                                  <p class="pro-price ">
+                                    <span class="current-price">$9.99</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="col-6 col-md-4 col-lg-3">
+                        <div class="product-item">
+                          <div class="product-block">
+                            <div class="product-img ">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
+                                <picture>
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
+                                </picture>
+                              </a>
+                              <div class="button-add d-none d-md-flex">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
+                                  <i class="fal fa-cart-plus"></i>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="product-detail clearfix">
+                              <div class="box-pro-detail">
+                                <h3 class="pro-name">
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
+                                </h3>
+                                <div class="box-pro-prices">
+                                  <p class="pro-price ">
+                                    <span class="current-price">$9.99</span>
                                   </p>
                                 </div>
                               </div>
@@ -905,29 +925,26 @@
                         <div class="product-item">
                           <div class="product-block">
                             <div class="product-img ">
-                              <a href="products/banh-mi-kep-ga-teriyaki.html" title="Bánh Mì Kẹp Gà Teriyaki" class="ratiobox">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
                                 <picture>
-                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/banh_mi_ga__1__6b9857e233614b82902d08486c2cc676_medium.jpg" />
-                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/banh_mi_ga__1__6b9857e233614b82902d08486c2cc676_grande.jpg" alt=" Bánh Mì Kẹp Gà Teriyaki " />
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
                                 </picture>
                               </a>
                               <div class="button-add d-none d-md-flex">
-                                <button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1078843664');">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
                                   <i class="fal fa-cart-plus"></i>
                                 </button>
-                                <a href="products/banh-mi-kep-ga-teriyaki.html">
-                                  <i class="fal fa-eye"></i>
-                                </a>
                               </div>
                             </div>
                             <div class="product-detail clearfix">
                               <div class="box-pro-detail">
                                 <h3 class="pro-name">
-                                  <a href="products/banh-mi-kep-ga-teriyaki.html" title="Bánh Mì Kẹp Gà Teriyaki"> Bánh Mì Kẹp Gà Teriyaki </a>
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
                                 </h3>
                                 <div class="box-pro-prices">
                                   <p class="pro-price ">
-                                    <span class="current-price">30,000₫</span>
+                                    <span class="current-price">$9.99</span>
                                   </p>
                                 </div>
                               </div>
@@ -935,33 +952,31 @@
                           </div>
                         </div>
                       </div>
+                      
                       <div class="col-6 col-md-4 col-lg-3">
                         <div class="product-item">
                           <div class="product-block">
                             <div class="product-img ">
-                              <a href="products/banh-mi-kep-pa-te.html" title="Bánh Mì Kẹp Pa Tê" class="ratiobox">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
                                 <picture>
-                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/banh_mi_pate_1cdb6f91cb74430fb2fd874d3a756f96_medium.jpg" />
-                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/banh_mi_pate_1cdb6f91cb74430fb2fd874d3a756f96_grande.jpg" alt=" Bánh Mì Kẹp Pa Tê " />
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
                                 </picture>
                               </a>
                               <div class="button-add d-none d-md-flex">
-                                <button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1078843509');">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
                                   <i class="fal fa-cart-plus"></i>
                                 </button>
-                                <a href="products/banh-mi-kep-pa-te.html">
-                                  <i class="fal fa-eye"></i>
-                                </a>
                               </div>
                             </div>
                             <div class="product-detail clearfix">
                               <div class="box-pro-detail">
                                 <h3 class="pro-name">
-                                  <a href="products/banh-mi-kep-pa-te.html" title="Bánh Mì Kẹp Pa Tê"> Bánh Mì Kẹp Pa Tê </a>
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
                                 </h3>
                                 <div class="box-pro-prices">
                                   <p class="pro-price ">
-                                    <span class="current-price">30,000₫</span>
+                                    <span class="current-price">$9.99</span>
                                   </p>
                                 </div>
                               </div>
@@ -969,33 +984,31 @@
                           </div>
                         </div>
                       </div>
+
                       <div class="col-6 col-md-4 col-lg-3">
                         <div class="product-item">
                           <div class="product-block">
                             <div class="product-img ">
-                              <a href="products/banh-mi-thap-cam.html" title="Bánh Mì Kẹp Thập Cẩm" class="ratiobox">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
                                 <picture>
-                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/banh_mi_thap_cam_110d56cdf5a54374870e2936d92e7859_medium.jpg" />
-                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/banh_mi_thap_cam_110d56cdf5a54374870e2936d92e7859_grande.jpg" alt=" Bánh Mì Kẹp Thập Cẩm " />
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
                                 </picture>
                               </a>
                               <div class="button-add d-none d-md-flex">
-                                <button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1078843609');">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
                                   <i class="fal fa-cart-plus"></i>
                                 </button>
-                                <a href="products/banh-mi-thap-cam.html">
-                                  <i class="fal fa-eye"></i>
-                                </a>
                               </div>
                             </div>
                             <div class="product-detail clearfix">
                               <div class="box-pro-detail">
                                 <h3 class="pro-name">
-                                  <a href="products/banh-mi-thap-cam.html" title="Bánh Mì Kẹp Thập Cẩm"> Bánh Mì Kẹp Thập Cẩm </a>
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
                                 </h3>
                                 <div class="box-pro-prices">
                                   <p class="pro-price ">
-                                    <span class="current-price">30,000₫</span>
+                                    <span class="current-price">$9.99</span>
                                   </p>
                                 </div>
                               </div>
@@ -1003,33 +1016,162 @@
                           </div>
                         </div>
                       </div>
+
                       <div class="col-6 col-md-4 col-lg-3">
                         <div class="product-item">
                           <div class="product-block">
                             <div class="product-img ">
-                              <a href="products/banh-mi-kep-xa-xiu.html" title="Bánh Mì Kẹp Xá Xíu" class="ratiobox">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
                                 <picture>
-                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/banh_mi_xa_xiu_846b2744475043daaf3ee175f58cc826_medium.jpg" />
-                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/banh_mi_xa_xiu_846b2744475043daaf3ee175f58cc826_grande.jpg" alt=" Bánh Mì Kẹp Xá Xíu " />
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
                                 </picture>
                               </a>
                               <div class="button-add d-none d-md-flex">
-                                <button title="Thêm vào giỏ" class="action " onclick="add_to_cart('1078843479');">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
                                   <i class="fal fa-cart-plus"></i>
                                 </button>
-                                <a href="products/banh-mi-kep-xa-xiu.html">
-                                  <i class="fal fa-eye"></i>
-                                </a>
                               </div>
                             </div>
                             <div class="product-detail clearfix">
                               <div class="box-pro-detail">
                                 <h3 class="pro-name">
-                                  <a href="products/banh-mi-kep-xa-xiu.html" title="Bánh Mì Kẹp Xá Xíu"> Bánh Mì Kẹp Xá Xíu </a>
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
                                 </h3>
                                 <div class="box-pro-prices">
                                   <p class="pro-price ">
-                                    <span class="current-price">30,000₫</span>
+                                    <span class="current-price">$9.99</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-6 col-md-4 col-lg-3">
+                        <div class="product-item">
+                          <div class="product-block">
+                            <div class="product-img ">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
+                                <picture>
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
+                                </picture>
+                              </a>
+                              <div class="button-add d-none d-md-flex">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
+                                  <i class="fal fa-cart-plus"></i>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="product-detail clearfix">
+                              <div class="box-pro-detail">
+                                <h3 class="pro-name">
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
+                                </h3>
+                                <div class="box-pro-prices">
+                                  <p class="pro-price ">
+                                    <span class="current-price">$9.99</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="col-6 col-md-4 col-lg-3">
+                        <div class="product-item">
+                          <div class="product-block">
+                            <div class="product-img ">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
+                                <picture>
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
+                                </picture>
+                              </a>
+                              <div class="button-add d-none d-md-flex">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
+                                  <i class="fal fa-cart-plus"></i>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="product-detail clearfix">
+                              <div class="box-pro-detail">
+                                <h3 class="pro-name">
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
+                                </h3>
+                                <div class="box-pro-prices">
+                                  <p class="pro-price ">
+                                    <span class="current-price">$9.99</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="col-6 col-md-4 col-lg-3">
+                        <div class="product-item">
+                          <div class="product-block">
+                            <div class="product-img ">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
+                                <picture>
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
+                                </picture>
+                              </a>
+                              <div class="button-add d-none d-md-flex">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
+                                  <i class="fal fa-cart-plus"></i>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="product-detail clearfix">
+                              <div class="box-pro-detail">
+                                <h3 class="pro-name">
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
+                                </h3>
+                                <div class="box-pro-prices">
+                                  <p class="pro-price ">
+                                    <span class="current-price">$9.99</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="col-6 col-md-4 col-lg-3">
+                        <div class="product-item">
+                          <div class="product-block">
+                            <div class="product-img ">
+                              <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi" class="ratiobox">
+                                <picture>
+                                  <source media="(max-width: 767px)" srcset="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_medium.jpg" />
+                                  <img class="lazyload img-loop" data-sizes="auto" src="product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg" alt=" Bánh Mì Nướng Bơ Tỏi " />
+                                </picture>
+                              </a>
+                              <div class="button-add d-none d-md-flex">
+                                <button title="Thêm vào giỏ" class="action " onclick="addToCart('Bánh Mì Nướng Bơ Tỏi', '$9.99', 'product.hstatic.net/200000411281/product/9_1cc15e71b97d405bbef69f4c166c44d7_grande.jpg')"">
+                                  <i class="fal fa-cart-plus"></i>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="product-detail clearfix">
+                              <div class="box-pro-detail">
+                                <h3 class="pro-name">
+                                  <a href="products/banh-mi-nuong-bo-toi.html" title="Bánh Mì Nướng Bơ Tỏi"> Bánh Mì Nướng Bơ Tỏi </a>
+                                </h3>
+                                <div class="box-pro-prices">
+                                  <p class="pro-price ">
+                                    <span class="current-price">$9.99</span>
                                   </p>
                                 </div>
                               </div>
@@ -1560,10 +1702,8 @@
         <img class="img-fluid" alt="Icon-Zalo" src="https://file.hstatic.net/200000259495/file/zalo_d9dc3417eb744b91a44643f29b8c7161.svg"> Zalo </a>
       <a href="https://www.m.me/107733003944258" class="messenger-icon" target="_blank">
         <img class="img-fluid" alt="Icon-Messager" src="https://file.hstatic.net/200000259495/file/messager_208d7389c4ac46b5a01afad457684cd6.svg"> Messenger </a>
-      <a href="https://www.instagram.com/freshgarden_banhvacaphe/" target="_blank">
-        <img class="img-fluid" alt="Icon-Instagram" src="https://file.hstatic.net/200000259495/file/instagram_81b9ae8829a940a7aa5b7926152ed378.svg"> Instagram </a>
       <a href="javascript:;" id="back-to-top">
-        <i class="fal fa-angle-up"></i> Lên đầu trang </a>
+        <i class="fal fa-angle-up"></i> Back To Top </a>
     </div>
 
     <div class="addThis_listSharing">
@@ -1654,6 +1794,36 @@
       </div>
     </div>
 
+    <div id="cart-section">
+      <div class="box-icon" style="font-size:22px">
+        <i class="fa-shopping-cart fz-20 fa"></i>
+        <span class="count-holder">
+          <span class="count">Your Cart</span>
+        </span>
+      </div>
+      <div id="cart-items"></div>
+
+      <form accept-charset="UTF-8" action="https://www.freshgarden.vn/contact" class="contact-form" method="post">
+        <input name="form_type" type="hidden" value="contact">
+        <input name="utf8" type="hidden" value="✓">
+        <div class="contact-form">
+          <div class="row">
+            <div class="col-12">
+              <div class="input-group">
+                <input style="margin:0 30px" required="" type="text" name="contact[name]" class="form-control" placeholder="Your Name" aria-describedby="basic-addon1">
+                <input style="margin:0 30px" required="" type="text" name="contact[name]" class="form-control" placeholder="Your Phone Number" aria-describedby="basic-addon1">
+                <input style="margin:0 30px" required="" type="text" name="contact[name]" class="form-control" placeholder="Your Home Address" aria-describedby="basic-addon1">
+              </div>
+            </div>
+            <div class="col-12" style="text-align:center">
+              <button class="btn btn-dark">CONFIRM DELIVERY</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    
     <script src='theme.hstatic.net/200000411281/1000949882/14/jquery.minf659.js?v=210' type='text/javascript'></script>
     <script src='theme.hstatic.net/200000411281/1000949882/14/pluginsf659.js?v=210' type='text/javascript'></script>
     <script src='theme.hstatic.net/200000411281/1000949882/14/scriptsf659.js?v=210' type='text/javascript'></script>
@@ -1710,6 +1880,39 @@
         });
       }
     </script>
+
+<script>
+	setTimeout(function(){
+		animation_check();
+	}, 100);
+	function animation_check(){
+		var scrollTop = $(window).scrollTop() - 300;
+		$('.animation-tran').each(function(){
+			if($(this).offset().top < scrollTop + $(window).height()){
+				$(this).addClass('active');
+			}
+		})
+	}
+	$(window).scroll(function(){
+		animation_check();
+	})
+
+	function tab_custom(link, content) {
+		$(link).on('click', function () {
+			var id = $(this).data('id');
+			$(this).siblings().removeClass('active');
+			$(this).addClass('active');
+			$(content + '[data-id='+id+']').siblings().removeClass('active');
+			$(content + '[data-id='+id+']').addClass('active');
+		});
+	}
+
+	if ($('.htp-tablink').length) {
+		tab_custom('.htp-tablink', '.htp-tabcontent');
+	}
+
+</script>
+
     <script>
       $(function() {
         $('nav#menu-mobile').mmenu({
@@ -1847,5 +2050,56 @@
         });
       }
     </script>
+
+<style>
+  #cart-section {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 10px;
+
+    z-index: 10000000;
+  }
+  
+  #cart-section.fixed {
+    position: fixed;
+  }
+
+  #cart-section.scrolled {
+    position: static;
+  }
+
+  #cart-items{
+    display: flex;
+    justify-content: center;
+  }
+  .cart-item {
+    text-align: center;
+    margin-right: 15px;
+  }
+</style>
+
+  <script>
+    const cartItemsContainer = document.getElementById('cart-items');
+
+    function addToCart(itemName, itemPrice, itemPic) {
+      const cartItem = document.createElement('div');
+      cartItem.classList.add('cart-item');
+      cartItem.innerHTML = `
+      <div>
+        <img class="lazyload img-loop" width="100" src="${itemPic}" alt=" Pizza Gà Teriyaki " />
+      </div>
+      <div style="margin-left:5px">
+        <p>${itemName}</p>
+        <p>${itemPrice}</p>
+      </div>`;
+
+      cartItemsContainer.appendChild(cartItem);
+    }
+
+  </script>
+
   </body>
 </html>
