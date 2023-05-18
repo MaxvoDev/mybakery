@@ -4623,7 +4623,7 @@ RESPONSIVE
   background-size: cover;
   background-position: center center;
   margin-top: 0;
-  padding: 60px 0px 50px 0px;
+  /* padding: 60px 0px 50px 0px; */
   border-top: solid #ffffff1a 1px; }
   .home-featured-product .owl-prev {
     left: -70px !important; }
@@ -6745,4 +6745,14 @@ RESPONSIVE
   .cart-item {
     text-align: center;
     margin-right: 15px;
+  }
+
+
+  .pro-name{
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .home-featured-product .product-detail .desc{
+    color: white;
   }
