@@ -20,12 +20,12 @@
     <link href='style.css' rel='stylesheet' type='text/css' media='all' />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Freshgarden.vn" />
-    <meta property="og:image:secure_url" content="https://theme.hstatic.net/200000411281/1000949882/14/share_fb_home.png?v=210" />
     <meta property="og:url" content="https://www.freshgarden.vn/" />
     <meta property="og:site_name" content="Freshgarden.vn" />
     <meta name="description" content="" />
   </head>
   <body id="hogwarts-theme" class="index">
+    <div class="nav-overlay" onclick="initNav('close')"></div>
     <div class="main-body">
       <header id="header">
         <div class="container-fluid">
@@ -37,13 +37,22 @@
                 </a>
               </div>
             </div>
-            <div class="header-contact d-none d-md-flex justify-content-around">
+            <div class="header-contact d-none d-lg-flex justify-content-around">
+              <div class="item d-flex align-items-center"></div>
               <div class="item d-flex align-items-center">
                 <div class="icon">
                   <i class="fal fa-phone-volume"></i>
                 </div>
                 <div class="info">
                   <a href="tel:+677779660">(677) 779-660</a>
+                </div>
+              </div>
+              <div class="item d-flex align-items-center">
+                <div class="icon">
+                  <i class="fal fa-envelope"></i>
+                </div>
+                <div class="info">
+                  <a href="mailto:Marketing.freshgarden@gmail.com">Marketing.freshgarden@gmail.com</a>
                 </div>
               </div>
               <div class="item d-flex align-items-center">
@@ -55,9 +64,15 @@
                 </div>
               </div>
             </div>
-            <div class="ml-30">
-              <a class="btn btn-info" href="#footer">Market Pre-Order</a>
-              <a class="btn btn-info ml-10" href="#footer">Contact Us</a>
+            <div class="header-upper-icon">
+              <div class="header-wrap-icon d-flex justify-content-end">
+                </div>
+                <div class=" ml-5">
+                  <a class="close-nav" href="javascript:void(0);" onclick="initNav('open')">
+                    <i class="fal fa-bars fz-20"></i>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -122,34 +137,17 @@
             <div class="swiper-pagination"></div>
           </div>
         </div>
-        <section class="home-featured-product">
+        <section class="home-featured-product" id="topSellingProducts">
           <div class="section-heading text-center style-dark mb-0">
             <h2 class="section-title">
               <span>Our Top-Selling Products</span>
             </h2>
             <div class="desc"></div>
           </div>
-          <div class="container">
-            <div class="swiper-container">
-              <div class="swiper-wrapper">
-                <div class="item-block d-flex"></div>
-
-                <!-- Add Arrows -->
-                <div class="swiper-button">
-                  <div class="swiper-prev">
-                    <i class="fal fa-angle-up"></i>
-                  </div>
-                  <div class="swiper-next">
-                    <i class="fal fa-angle-down"></i>
-                  </div>
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
-            </div>
-          </div>
+          <div class="item-block d-flex"></div>
         </section>
 
-        <section class="home-tab-product"> 
+        <section class="home-tab-product" id="weeklyMenu"> 
           <div class="container">
             <div class="inner">
               <div class="section-heading text-center">
@@ -203,7 +201,7 @@
               <div class="col-12 col-lg-6">
                 <h3 class="footer-title">RESERVE A LARGE ORDER</h3>
                 <div id="col-left contactFormWrapper">
-                  <form id="orderForm" name="orderForm" accept-charset='UTF-8' action='https://www.freshgarden.vn/contact' class='contact-form' method='post'>
+                  <form accept-charset='UTF-8' action='https://www.freshgarden.vn/contact' class='contact-form' method='post'>
                     <input name='form_type' type='hidden' value='contact'>
                     <input name='utf8' type='hidden' value='✓'>
                     <div class="contact-form">
@@ -274,11 +272,36 @@
       </footer>
 
     </div>
+    
+    <div class="navbar-mainmenu">
+      <div id="nav">
+        <a class="close-nav" href="javascript:void(0);" onclick="initNav('close')">
+          <i class="fa fa-arrow-right"></i>
+        </a>
+        <nav class="main-nav">
+          <ul>
+            <li class="active">
+              <a href="/" title="Home"> Home </a>
+            </li>
+            <li class="">
+              <a href="#topSellingProducts" title="Top-Selling Products"> Top-Selling Products </a>
+            </li>
+            <li class="">
+              <a href="#weeklyMenu" title="Weekly Menu"> Weekly Menu </a>
+            </li>
+            <li class="">
+              <a href="#footer" title="Pre-Order"> Pre-Order</a>
+            </li>
+            <li class="">
+              <a href="#footer" title="Contact Us"> Contact Us </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
 
-    <div id="modalAddComplete"></div>
-    <button type="button" id="modalAddCompleteBtn" style="display: none;"></button>
     <div id="fixed-social-network">
-      <a href="#" class="zalo-icon" target="_blank">
+      <a href="https://www.zalo.me/2707171837252678167" class="zalo-icon" target="_blank">
         <img class="img-fluid" alt="Icon-Facebook" src="facebook.png"> Facebook </a>
       <a href="tel:+677779660" class="messenger-icon" target="_blank">
         <img class="img-fluid" alt="Icon-Call" src="call.png"> Call Us </a>
