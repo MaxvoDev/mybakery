@@ -1506,7 +1506,8 @@ PRODUCT DETAIL
 
 .selector-actions {
   width: 100%;
-  margin-top: 15px; }
+  margin-top: 15px; 
+}
 
 .quantity-area {
   margin-bottom: 15px; }
@@ -6755,4 +6756,9 @@ RESPONSIVE
 
   .home-featured-product .product-detail .desc{
     color: white;
+  }
+
+
+  .header-contact, .footer .footer-contact p{
+    font-size: 18px;
   }
