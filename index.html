@@ -8,7 +8,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="HandheldFriendly" content="true">
     <link rel="shortcut icon" href="logo.svg" type="image/png" />
-    <title> SAIGON SUNRISE - We Bake Better Bread</title>
+    <title> Saigon Sunrise - We Bake Better Bread</title>
     <link rel="canonical" href="index.html" />
     <link rel="amphtml" href="index942b.html?view=amp">
     <link rel="alternate" href="index.html" hreflang="vi-vn" />
@@ -260,7 +260,15 @@
                       <i class="fal fa-envelope"></i>
                       <span>Marketing.freshgarden@gmail.com</span>
                     </a>
-                    <p>
+                    <div class="social-network d-flex mt-10">
+                      <a href="https://www.zalo.me/2707171837252678167" class="zalo-icon mr-20" target="_blank">
+                        <img class="img-fluid" alt="Icon-Facebook" src="facebook.png"></a>
+                      <a href="tel:+677779660" class="messenger-icon mr-20" target="_blank">
+                        <img class="img-fluid" alt="Icon-Call" src="call.png"></a>
+                      <a target="_blank" href="https://www.google.com/maps/search/Ranadi+Area,+Honiara+capital,+Solomon+Islands/@-9.4343195,159.93209,13z/data=!3m1!4b1" class="messenger-icon" target="_blank">
+                        <img class="img-fluid" alt="Icon-Call" src="google-maps.png"></a>
+                    </div>
+                    <p class="mt-10">
                       <span>Hours: Tuesday, Wednesday and Sunday | 9am-5pm</span>
                     </p>
                   </div>
@@ -294,6 +302,16 @@
             </li>
             <li class="">
               <a href="#footer" title="Contact Us"> Contact Us </a>
+            </li>
+            <li>
+              <div class="social-network d-flex">
+                <a href="https://www.zalo.me/2707171837252678167" class="zalo-icon" target="_blank">
+                  <img class="img-fluid" alt="Icon-Facebook" src="facebook.png"></a>
+                <a href="tel:+677779660" class="messenger-icon" target="_blank">
+                  <img class="img-fluid" alt="Icon-Call" src="call.png"></a>
+                <a target="_blank" href="https://www.google.com/maps/search/Ranadi+Area,+Honiara+capital,+Solomon+Islands/@-9.4343195,159.93209,13z/data=!3m1!4b1" class="messenger-icon" target="_blank">
+                  <img class="img-fluid" alt="Icon-Call" src="google-maps.png"></a>
+              </div>
             </li>
           </ul>
         </nav>
@@ -360,59 +378,6 @@
     <script src='theme.hstatic.net/200000411281/1000949882/14/jquery.minf659.js?v=210' type='text/javascript'></script>
     <script src='theme.hstatic.net/200000411281/1000949882/14/pluginsf659.js?v=210' type='text/javascript'></script>
     <script src='theme.hstatic.net/200000411281/1000949882/14/scriptsf659.js?v=210' type='text/javascript'></script>
-    <script>
-      if ($('.addThis_listSharing').length > 0) {
-        $('.addThis_iconContact,.addThis_listSharing .addThis_close').on('click', function(e) {
-          if ($('.addThis_listSharing').hasClass('active')) {
-            $('.addThis_listSharing').removeClass('active');
-            $('.addThis_listSharing').fadeOut(150);
-          } else {
-            $('.addThis_listSharing').fadeIn(100);
-            $('.addThis_listSharing').addClass('active');
-          }
-        });
-        $('.listSharing_overlay').on('click', function(e) {
-          $('.addThis_listSharing').removeClass('active');
-          $('.addThis_listSharing').fadeOut(150);
-        })
-        $('.content_popupform form.contact-form').submit(function(e) {
-          var self = $(this);
-          if ($(this)[0].checkValidity() == true) {
-            e.preventDefault();
-            grecaptcha.ready(function() {
-              grecaptcha.execute('6LdD18MUAAAAAHqKl3Avv8W-tREL6LangePxQLM-', {
-                action: 'submit'
-              }).then(function(token) {
-                self.find('input[name="g-recaptcha-response"]').val(token);
-                $.ajax({
-                  type: 'POST',
-                  url: '/contact',
-                  data: $('.content_popupform form.contact-form').serialize(),
-                  beforeSend: function() {
-                    // addClass loading
-                  },
-                  success: function(data) {
-                    $('.modal-contactform.fade.in').modal('hide');
-                    setTimeout(function() {
-                      $('.modal-succesform').modal('show');
-                      setTimeout(function() {
-                        $('.modal-succesform.fade.in').modal('hide');
-                      }, 5000);
-                    }, 200);
-                  },
-                  complete: function() {
-                    // removeClass loading
-                  }
-                })
-              });
-            });
-          }
-        });
-        $(".modal-succesform").on('hidden.bs.modal', function() {
-          location.reload();
-        });
-      }
-    </script>
 
 <script>
 	setTimeout(function(){
@@ -512,77 +477,7 @@
         }, 100);
       });
     </script>
-    
-    <script>
-      // Get the modal
-      var modalAddComplete = document.getElementById('modalAddComplete');
-      // Get the button that opens the modal
-      var modalAddCompleteBtn = document.getElementById("modalAddCompleteBtn");
-      // When the user clicks the button, open the modal 
-      modalAddCompleteBtn.onclick = function() {
-        modalAddComplete.style.display = "block";
-      }
-      // When the user clicks anywhere outside of the modal, close it
-      window.onclick = function(event) {
-        if (event.target == modalAddComplete) {
-          modalAddComplete.style.display = "none";
-        }
-      }
-    </script>
-    
-    <script>
-      if ($('.addThis_listSharing').length > 0) {
-        $('.addThis_iconContact,.addThis_listSharing .addThis_close').on('click', function(e) {
-          if ($('.addThis_listSharing').hasClass('active')) {
-            $('.addThis_listSharing').removeClass('active');
-            $('.addThis_listSharing').fadeOut(150);
-          } else {
-            $('.addThis_listSharing').fadeIn(100);
-            $('.addThis_listSharing').addClass('active');
-          }
-        });
-        $('.listSharing_overlay').on('click', function(e) {
-          $('.addThis_listSharing').removeClass('active');
-          $('.addThis_listSharing').fadeOut(150);
-        })
-        $('.content_popupform form.contact-form').submit(function(e) {
-          var self = $(this);
-          if ($(this)[0].checkValidity() == true) {
-            e.preventDefault();
-            grecaptcha.ready(function() {
-              grecaptcha.execute('6LdD18MUAAAAAHqKl3Avv8W-tREL6LangePxQLM-', {
-                action: 'submit'
-              }).then(function(token) {
-                self.find('input[name="g-recaptcha-response"]').val(token);
-                $.ajax({
-                  type: 'POST',
-                  url: '/contact',
-                  data: $('.content_popupform form.contact-form').serialize(),
-                  beforeSend: function() {
-                    // addClass loading
-                  },
-                  success: function(data) {
-                    $('.modal-contactform.fade.in').modal('hide');
-                    setTimeout(function() {
-                      $('.modal-succesform').modal('show');
-                      setTimeout(function() {
-                        $('.modal-succesform.fade.in').modal('hide');
-                      }, 5000);
-                    }, 200);
-                  },
-                  complete: function() {
-                    // removeClass loading
-                  }
-                })
-              });
-            });
-          }
-        });
-        $(".modal-succesform").on('hidden.bs.modal', function() {
-          location.reload();
-        });
-      }
-    </script>
+
 
   <script>
     var featuredProduct = [

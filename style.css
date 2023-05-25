@@ -6762,3 +6762,8 @@ RESPONSIVE
   .header-contact, .footer .footer-contact p{
     font-size: 18px;
   }
+
+
+  .social-network a img{
+    max-width: 30px;
+  }
