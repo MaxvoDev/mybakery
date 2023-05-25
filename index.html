@@ -330,12 +330,17 @@
     </div>
 
     <div id="cart-section" class="d-none">
-      <div class="htp-tabcontent active" data-id="htp-tab-4">
-        <div class="box-icon" style="font-size:22px">
-          <i class="fa-shopping-cart fz-20 fa"></i>
-          <span class="count-holder">
-            <span class="count">Your Cart</span>
-          </span>
+      <div class="htp-tabcontent active" data-id="htp-tab-4" style="font-size:22px">
+        <div class="header d-flex">
+          <div class="box-icon">
+            <i class="fa-shopping-cart fz-20 fa"></i>
+            <span class="count-holder">
+              <span class="count">Your Cart</span>
+            </span>
+          </div>
+          <div>
+            Sub Total: $<span id="subtotal">0</span>
+          </div>
         </div>
         <div id="cart-items">
         </div>
@@ -486,88 +491,89 @@
         name: 'Chocolate-Almond Croissant',
         desc: 'A sweet, rich croissant filled with milk chocolate and our signature almond paste',
         pic: 'https://img1.wsimg.com/isteam/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/ols/31_original/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$5'
+        price: '5'
       },
       {
         cate: 'Croissants',
         name: 'Blueberry-Almond Croissants',
         desc: 'Similar to our Almond Croissant, but accompanied with a fresh blueberry pie filling',
         pic: 'https://isteam.wsimg.com/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/ols/15_original/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$5'
+        price: '5'
       },
       {
         cate: 'Croissants',
         name: 'Almond',
         desc: 'A sweet, buttery croissant filled and topped with our uniquely made almond paste',
         pic: 'https://img1.wsimg.com/isteam/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/ols/33_original/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$4'
-      },
-      {
-        cate: 'Croissants',
-        name: 'Butter',
-        desc: 'A flaky, buttery roll of deliciousness. The base for all of our other croissants',
-        pic: 'https://img1.wsimg.com/isteam/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/IMG_1429.jpg/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$3'
+        price: '4'
       }
     ];
 
 
     var croissants = [
       {
+        id: '1',
         cate: 'Croissants',
         name: 'Chocolate-Almond Croissant',
         desc: 'A sweet, rich croissant filled with milk chocolate and our signature almond paste',
         pic: 'https://img1.wsimg.com/isteam/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/ols/31_original/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$5'
+        price: '5'
       },
       {
+        id: '2',
         cate: 'Croissants',
         name: 'Blueberry-Almond Croissants',
         desc: 'Similar to our Almond Croissant, but accompanied with a fresh blueberry pie filling',
         pic: 'https://isteam.wsimg.com/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/ols/15_original/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$5'
+        price: '5'
       },
       {
+        id: '3',
         cate: 'Croissants',
         name: 'Almond',
         desc: 'A sweet, buttery croissant filled and topped with our uniquely made almond paste',
         pic: 'https://img1.wsimg.com/isteam/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/ols/33_original/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$4'
+        price: '4'
       },
       {
+        id: '4',
         cate: 'Croissants',
         name: 'Butter',
         desc: 'A flaky, buttery roll of deliciousness. The base for all of our other croissants',
         pic: 'https://img1.wsimg.com/isteam/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/IMG_1429.jpg/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$3'
+        price: '3'
       },
       {
+        id: '5',
         cate: 'Croissants',
         name: 'Spinach & Cheese',
         desc: 'Green spinach and a 4-cheese blend mixed together and stuffed inside a buttery croissant',
         pic: 'https://img1.wsimg.com/isteam/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/ols/25_original/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$5'
+        price: '5'
       },
       {
+        id: '6',
         cate: 'Croissants',
         name: 'Ham & Cheese',
         desc: 'All Natural deli-style sliced ham paired with a 4-cheese blend and rolled into a buttery croissant',
         pic: 'https://isteam.wsimg.com/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/ols/8_original/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$5'
+        price: '5'
       },
       {
+        id: '7',
         cate: 'Croissants',
         name: 'Cinnamon Croissant',
         desc: 'A buttery croissant rolled and coated with cinnamon sugart',
         pic: 'https://img1.wsimg.com/isteam/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/ols/27_original/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$3'
+        price: '3'
       },
       {
+        id: '8',
         cate: 'Croissant',
         name: 'Chocolate Croissant',
         desc: 'A flaky, buttery roll of deliciousness filled with rich milk chocolate',
         pic: 'https://img1.wsimg.com/isteam/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/ols/26_original/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$3'
+        price: '3'
       }
     ];
 
@@ -577,42 +583,42 @@
         name: 'Vegan Chocolate Chip Cookie',
         desc: 'A modern version of a classic recipe. Made with vegan butter',
         pic: 'https://img1.wsimg.com/isteam/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/ols/32_original/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$2'
+        price: '2'
       },
       {
         cate: 'Cookies',
         name: 'Vegan Ginger Cookie',
         desc: 'A soft, flavorful cookie made with real ginger and vegan butter',
         pic: 'https://img1.wsimg.com/isteam/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/ols/37_original/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$2'
+        price: '2'
       },
       {
         cate: 'Cookies',
         name: 'Palmier',
         desc: 'A flaky, sugar cookie',
         pic: 'https://isteam.wsimg.com/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/ols/17_original/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$2'
+        price: '2'
       },
       {
         cate: 'Cookies',
         name: 'Vegan Palmier',
         desc: 'Made with vegan butter. Limited availability, please inquire for more details',
         pic: 'https://isteam.wsimg.com/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/ols/17_original/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$2'
+        price: '2'
       },
       {
         cate: 'Cookies',
         name: 'Vegan Oatmeal Raisin Cookie',
         desc: 'A delicious cookie with a modern twist. Made with vegan butter.  Limited availability, please inquire for more detailsr',
         pic: 'https://img1.wsimg.com/isteam/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/IMG_0642.jpg/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$2'
+        price: '2'
       },
       {
         cate: 'Cookies',
         name: 'Linzer Cookie',
         desc: 'A sweet, soft sandwich-like cookie made with a special jam in the center.   Limited availability, please inquire for more details',
         pic: 'https://img1.wsimg.com/isteam/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/ols/40_original/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$2'
+        price: '2'
       }
     ];
 
@@ -622,28 +628,28 @@
         name: 'Apple Turnover',
         desc: 'Delicious granny-style apple pie filling folded together by a thin, light puff pastry shell',
         pic: 'https://img1.wsimg.com/isteam/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/ols/38_original/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$4'
+        price: '4'
       },
       {
         cate: 'Solomon"s Bakery Specials',
         name: 'Blueberry & Blackberry Pull-apart Muffin',
         desc: 'Somewhat of a fusion between a muffin and monkey bread. It"s packed with blueberries, cinnamon, sugar, and nutmeg',
         pic: 'https://isteam.wsimg.com/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/ols/16_original/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$4'
+        price: '4'
       },
       {
         cate: 'Solomon"s Bakery Specials',
         name: 'Raspberry Jelly Donuts',
         desc: 'Raspberry Jelly Donut. Plain and simple',
         pic: 'https://img1.wsimg.com/isteam/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/donut.jpg/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$3'
+        price: '3'
       },
       {
         cate: 'Solomon"s Bakery Specials',
         name: 'Prune & Dark Chocolate Roll',
         desc: 'A brioche-style roll made with chopped prunes and dark chocolate chips',
         pic: 'https://img1.wsimg.com/isteam/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/IMG-0466.jpg/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270',
-        price: '$3'
+        price: '3'
       }
     ];
 
@@ -653,49 +659,49 @@
         name: 'Pumpernickel w/ Raisins, Pumpkin Seeds, and Sunflower Seeds',
         desc: 'A dark pumpernickel loaf made with raisins, pumpkin seeds, and sunflower seeds',
         pic: 'https://isteam.wsimg.com/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/ols/23_original/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270/qt=q:55',
-        price: '$6'
+        price: '6'
       },
       {
         cate: 'Breads',
         name: 'Potato Rosemary Roll',
         desc: 'Dinner rolls made with potatoes and rosemary. *Comes in large and small variants*s',
         pic: 'https://img1.wsimg.com/isteam/stock/1553/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270/qt=q:55',
-        price: '$3'
+        price: '3'
       },
       {
         cate: 'Breads',
         name: 'Multigrain Sunflower Loaf',
         desc: 'A signature Solomon"s recipe, made with sourdough starter and a variety of grains and sunflower seeds',
         pic: 'https://img1.wsimg.com/isteam/stock/1553/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270/qt=q:55',
-        price: '$6'
+        price: '6'
       },
       {
         cate: 'Breads',
         name: 'French Baguette',
         desc: 'A classic, crispy french white bread',
         pic: 'https://isteam.wsimg.com/ip/dafca418-ef6a-4f7b-9db7-318a648b0972/ols/22_original/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270/qt=q:55',
-        price: '$6'
+        price: '6'
       },
       {
         cate: 'Breads',
         name: 'Olive Ciabatta',
         desc: 'A light, airy, white Italian bread made with black olives',
         pic: 'https://img1.wsimg.com/isteam/stock/1553/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270/qt=q:55',
-        price: '$4'
+        price: '4'
       },
       {
         cate: 'Breads',
         name: 'Ciabatta',
         desc: 'A light, airy, white Italian bread',
         pic: 'https://img1.wsimg.com/isteam/stock/1553/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270/qt=q:55',
-        price: '$3'
+        price: '3'
       },
       {
         cate: 'Breads',
         name: 'Rye Loaf',
         desc: 'European Dark Rye',
         pic: 'https://img1.wsimg.com/isteam/stock/1553/:/rs=w:360,h:270,cg:true,m/cr=w:360,h:270/qt=q:55',
-        price: '$5'
+        price: '5'
       },
     ];
 
@@ -712,7 +718,7 @@
                   </picture>
                 </a>
                 <div class="button-add d-none d-md-flex">
-                  <button title="Thêm vào giỏ" class="action " onclick="addToCart('${product.name}', '${product.price}', '${product.pic}')"">
+                  <button title="Add to Cart" class="action " onclick="addToCart('${product.name}', '${product.price}', '${product.pic}')"">
                     <i class="fal fa-cart-plus"></i>
                   </button>
                 </div>
@@ -722,7 +728,7 @@
                   <h3 class="pro-name d-flex">
                     <a href="javascript:void(0)" title="${product.name}">${product.name}</a>
                     <p class="pro-price">
-                      <span class="current-price">${product.price}</span>
+                      <span class="current-price">$${product.price}</span>
                     </p>
                   </h3>
                   <p class="desc text-left">${product.desc}</p>
@@ -755,7 +761,7 @@
                   </picture>
                 </a>
                 <div class="button-add d-none d-md-flex">
-                  <button title="Thêm vào giỏ" class="action " onclick="addToCart('${product.name}', '${product.price}', '${product.pic}')"">
+                  <button title="Add to Cart" class="action " onclick="addToCart('${product.name}', '${product.price}', '${product.pic}')"">
                     <i class="fal fa-cart-plus"></i>
                   </button>
                 </div>
@@ -765,14 +771,14 @@
                   <h3 class="pro-name d-flex">
                     <a class="text-left" href="javascript:void(0)" title="${product.name}">${product.name}</a>
                     <p class="pro-price">
-                      <span class="current-price text-right">${product.price}</span>
+                      <span class="current-price text-right">$${product.price}</span>
                     </p>
                   </h3>
                   <p class="text-left">${product.desc}</p>
                 </div>
                 <div class="selector-actions">
                   <div class="wrap-addcart">						
-                    <button type="button" id="add-to-cart" class="add-to-cartProduct btn btn-primary btn-addtocart addtocart-modal" name="add" onclick="addToCart('${product.name}', '${product.price}', '${product.pic}')"">Add To Cart</button>
+                    <button type="button" id="add-to-cart" class="add-to-cartProduct btn btn-primary btn-addtocart addtocart-modal" name="add" onclick="addToCart('${product.name}', '${product.price}', '${product.pic}', ${product.id})"">Add To Cart</button>
                   </div>	
                 </div>
               </div>
@@ -795,7 +801,7 @@
                   </picture>
                 </a>
                 <div class="button-add d-none d-md-flex">
-                  <button title="Thêm vào giỏ" class="action " onclick="addToCart('${product.name}', '${product.price}', '${product.pic}')"">
+                  <button title="Add to Cart" class="action " onclick="addToCart('${product.name}', '${product.price}', '${product.pic}')"">
                     <i class="fal fa-cart-plus"></i>
                   </button>
                 </div>
@@ -805,7 +811,7 @@
                   <h3 class="pro-name d-flex">
                     <a class="text-left" href="javascript:void(0)" title="${product.name}">${product.name}</a>
                     <p class="pro-price">
-                      <span class="current-price text-right">${product.price}</span>
+                      <span class="current-price text-right">$${product.price}</span>
                     </p>
                   </h3>
                   <p class="text-left">${product.desc}</p>
@@ -835,7 +841,7 @@
                   </picture>
                 </a>
                 <div class="button-add d-none d-md-flex">
-                  <button title="Thêm vào giỏ" class="action " onclick="addToCart('${product.name}', '${product.price}', '${product.pic}')"">
+                  <button title="Add to Cart" class="action " onclick="addToCart('${product.name}', '${product.price}', '${product.pic}')"">
                     <i class="fal fa-cart-plus"></i>
                   </button>
                 </div>
@@ -845,7 +851,7 @@
                   <h3 class="pro-name d-flex">
                     <a class="text-left" href="javascript:void(0)" title="${product.name}">${product.name}</a>
                     <p class="pro-price">
-                      <span class="current-price text-right">${product.price}</span>
+                      <span class="current-price text-right">$${product.price}</span>
                     </p>
                   </h3>
                   <p class="text-left">${product.desc}</p>
@@ -877,7 +883,7 @@
                   </picture>
                 </a>
                 <div class="button-add d-none d-md-flex">
-                  <button title="Thêm vào giỏ" class="action " onclick="addToCart('${product.name}', '${product.price}', '${product.pic}')"">
+                  <button title="Add to Cart" class="action " onclick="addToCart('${product.name}', '${product.price}', '${product.pic}')"">
                     <i class="fal fa-cart-plus"></i>
                   </button>
                 </div>
@@ -887,7 +893,7 @@
                   <h3 class="pro-name d-flex">
                     <a class="text-left" href="javascript:void(0)" title="${product.name}">${product.name}</a>
                     <p class="pro-price">
-                      <span class="current-price text-right">${product.price}</span>
+                      <span class="current-price text-right">$${product.price}</span>
                     </p>
                   </h3>
                   <p class="text-left">${product.desc}</p>
@@ -906,10 +912,12 @@
   
   </script>
   <script>
+    const cartItems = [];
     const cartItemsContainer = document.getElementById('cart-items');
     const cartSectionContainer = document.getElementById('cart-section');
+    const cartSubtotal = document.getElementById('subtotal');
 
-    function addToCart(itemName, itemPrice, itemPic) {
+    function addToCart(itemName, itemPrice, itemPic, itemId = -1) {
       cartSectionContainer.classList.remove('d-none')
       const cartItem = document.createElement('div');
       cartItem.classList.add('cart-item');
@@ -917,17 +925,25 @@
       cartItem.innerHTML = `
       <img class="remove-item" onclick="removeFromCart()" style="position:absolute;right:0;top:-15px" width="15" src="//theme.hstatic.net/200000411281/1000949882/14/icon-close.png?v=210" alt="close">
       <div>
-        <img class="lazyload img-loop" width="50" src="${itemPic}" alt=" Pizza Gà Teriyaki " />
+        <img class="lazyload img-loop" width="50" src="${itemPic}" alt=" ${itemName} " />
       </div>
       <div style="margin-left:5px">
         <p class="mb-0">${itemName}</p>
-        <p>${itemPrice}</p>
+        <p>$${itemPrice}</p>
       </div>`;
 
+      cartItem.setAttribute('data-id', itemId);
+      cartItems.push({
+        itemId,
+        itemName,
+        itemPrice
+      });
       cartItemsContainer.appendChild(cartItem);
+      cartSubtotal.textContent = +cartSubtotal.textContent + +itemPrice;
     }
 
     function removeFromCart(){
+      debugger;
       event.currentTarget.parentNode.remove();
       if(cartItemsContainer.children.length == 0)
         cartSectionContainer.classList.add('d-none')

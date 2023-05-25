@@ -6767,3 +6767,7 @@ RESPONSIVE
   .social-network a img{
     max-width: 30px;
   }
+
+  .htp-tabcontent > .header{
+    justify-content: space-between;
+  }
