@@ -6772,6 +6772,6 @@ RESPONSIVE
     justify-content: space-between;
   }
 
-  body{
+  html, body{
     overflow-x: hidden!important;
   }
