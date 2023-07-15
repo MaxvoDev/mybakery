@@ -6771,3 +6771,7 @@ RESPONSIVE
   .htp-tabcontent > .header{
     justify-content: space-between;
   }
+
+  body{
+    overflow-x: hidden!important;
+  }
