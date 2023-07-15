@@ -3405,7 +3405,7 @@ span.action_link {
 FOOTER 
 --------------------------------------------------------------------------------*/
 .footer {
-  padding: 40px 0 220px 0;
+  padding: 40px 0 40px 0;
   border-bottom: 1px solid #e7e7e7;
   border-top: 1px solid #e7e7e7;
   background-image: url("file.hstatic.net/200000411281/file/nen_1_d9b188f289834a59b6db9ded098262c8.jpg");
@@ -6764,7 +6764,7 @@ RESPONSIVE
   }
 
 
-  .social-network a img{
+  .social-network a img, .icon img{
     max-width: 30px;
   }
 
